@@ -4,12 +4,8 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-<<<<<<< HEAD
-    { name = "lewis hicking", email = "lhic778@aucklanduni.ac.nz" }
-=======
-    { name = "lewishicking", email = "lhic778@aucklanduni.ac.nz" },
+    { name = "Lewis Hicking", email = "lhic778@aucklanduni.ac.nz" },
     { name = "Monica Li", email = "yil137@aucklanduni.ac.nz" }
->>>>>>> 8c356cbb5b39a937c11797747171b3a064d6a01f
 ]
 requires-python = ">=3.12"
 dependencies = []
