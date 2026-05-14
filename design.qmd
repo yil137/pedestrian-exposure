@@ -16,9 +16,13 @@ crossref:
 ## Problem statement
 
 ### What problem does our package solve
-Different people walking around the University of Auckland city campus can experience different walking conditions based on the different routes they take. Some streets are louder, busier, and more polluted, while other routes may have more trees, parks, and quieter surroundings. Even if two routes take about the same amount of time, one may feel healthier and more comfortable walking.
+This package seeks to understand pollution and which routes are the healthiest to walk in—specifically looking at the City to answer this question: which route is healthier for a walker on the Auckland University campus, and why?
 
-Gaps in research:
+This project aims to address growing concerns about the environmental impacts of transportation and pollution exposure in dense urban environments like Auckland's CBD. According to Jovanovic et al. (2024), minimising travel time alone does not necessarily yield more environmentally friendly routes, as streets and areas differ in pollution and traffic levels that apps like Google maps, the AT app or other common mapping tools fail to recognize. As well as that, there are gaps in where the data is collected with most air quality information being collected at fixed points instead of statically done to improve reliability (El Arfaoui et al., 2026). 
+
+The package responds to broader urban issues, such as understanding how environmental conditions vary across short pedestrian journeys. Research on eco-routing has shown that optimal travel routes differ depending on whether travel time, emissions or pollution exposure are prioritised. Although most studies focus purely on vehicle emissions and traffic simulation rather than pedestrian and scale exposure within urban areas (Kwong et al., 2025).
+By combining walking routes with pollutants such as noise, greenspace, and air quality data, this package aims to provide concise information to the general public regarding complex environmental issues. The hope is that this data will raise awareness of people's health in relation to pollution and how environmental exposure varies across urban landscapes. 
+
 
 ### Who will use it, and why
 Our pedestrian-exposure package helps users compare walking routes around the UoA city campus by combining information about traffic noise, air pollution, and green space. The package is designed for anyone who wants to better understand which walking routes may provide a healthier walking experience.
@@ -79,3 +83,9 @@ The final notebook output will include a small bar chart summarising the contrib
 Next function to implement after today's lab: `load_route()`, because the package first needs a working walking route around the University of Auckland city campus before exposure data can be added and compared. 
 
 ## References:
+El Arfaoui, A., El Khaili, M., Chakir, I., Arif, O., Nhaila, H., Essamlali, I., & Tabaa, M. (2026). Towards Improving Air Quality Monitoring Using Fixed and Mobile Stations: Case of Mohammedia City. Sustainability, 18(6), 2944. https://doi.org/10.3390/su18062944
+
+Jovanovic, A., Gavric, S., & Stevanovic, A. (2024). Evaluating Google Maps’ Eco-Routes: A Metaheuristic-Driven Microsimulation Approach. Geographies, 4(4), 732-752. https://doi.org/10.3390/geographies4040040
+
+Lam, C. K. C., Alnaqshabandy, H., Lewin, S., Morewood, J., Xie, X., & Goodhew, S. (2025). Making intra-urban monitoring ‘a walk in the park’: A mobile monitoring approach for assessing pedestrians’ environmental conditions. Building and Environment, 113487. https://doi.org/10.1016/j.buildenv.2025.113487 
+
