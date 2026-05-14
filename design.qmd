@@ -42,7 +42,7 @@ The output combines three environmental exposure components: air pollution, nois
 
 The final notebook output will include a small bar chart summarising the contributions of all pollutant types to the overall route score. It will also include a short summary statement explaining which route may be healthier and why. 
 
-![Sketch of the expected demo output (rough map of the route coloured by exposure).](docs/expected_output.png.png){#fig-output width=80%}
+![Sketch of the expected demo output (rough map of the route coloured by exposure).](docs/expected_output.png){#fig-output width=80%}
 
 ## Key design choices
 
