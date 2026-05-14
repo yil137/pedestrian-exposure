@@ -37,10 +37,12 @@ The package takes walking route data, air pollution data, noise data, and green 
 ## Expected output
 
 Figure 2 shows a rough estimate of the design's final output. The package will produce a walking route map for the University of Auckland city campus and surrounding streets that students use to get to class. Each walking route will be coloured according to its total pedestrian exposure score; higher scores represent routes with higher exposure to pollution and noise.
+
 The output combines three environmental exposure components: air pollution, noise, and green space. Allowing users to compare different walking routes around the campus and identify greener paths. For example, Albert Park or streets like Alfred Street may be greener and less polluted than routes near roads.
+
 The final notebook output will include a small bar chart summarising the contributions of all pollutant types to the overall route score. It will also include a short summary statement explaining which route may be healthier and why. 
 
-![Sketch of the expected demo output (rough map of the route coloured by exposure).](docs/expected_output.png){#fig-output width=80%}
+![Sketch of the expected demo output (rough map of the route coloured by exposure).](docs/expected_output.png.png){#fig-output width=80%}
 
 ## Key design choices
 
