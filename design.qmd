@@ -3,6 +3,7 @@ title: "Design report: your-package-name"
 authors:
   - Monica Li
   - Lewis Hicking
+  - Jessica Courtney
 date: today
 format:
   html:
