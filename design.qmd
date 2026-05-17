@@ -36,7 +36,7 @@ The package takes walking route data, air pollution data, noise data, and green 
 
 ## Expected output
 
-Figure 2 shows a rough estimate of the design's final output. The package will produce a walking route map for the University of Auckland city campus and surrounding streets that students use to get to class. Each walking route will be coloured according to its total pedestrian exposure score; higher scores represent routes with higher exposure to pollution and noise.
+@fig-output shows a rough estimate of the final output. The package will produce a walking route map for the University of Auckland city campus and surrounding streets that students use to get to class. Each walking route will be coloured according to its total pedestrian exposure score; higher scores represent routes with higher exposure to pollution and noise.
 
 The output combines three environmental exposure components: air pollution, noise, and green space. Allowing users to compare different walking routes around the campus and identify greener paths. For example, Albert Park or streets like Alfred Street may be greener and less polluted than routes near roads.
 
@@ -84,9 +84,9 @@ The final notebook output will include a small bar chart summarising the contrib
 - Reviewing each other’s code
 - Preparing the final presentation and poster
 
-Next function to implement after today's lab: `load_route()`, because the package first needs a working walking route around the University of Auckland city campus before exposure data can be added and compared. 
+Next function to implement after today's lab is `load_route()`, because the package first needs a working walking route around the University of Auckland city campus before exposure data can be added and compared. 
 
-## References:
+## References
 El Arfaoui, A., El Khaili, M., Chakir, I., Arif, O., Nhaila, H., Essamlali, I., & Tabaa, M. (2026). Towards Improving Air Quality Monitoring Using Fixed and Mobile Stations: Case of Mohammedia City. Sustainability, 18(6), 2944. https://doi.org/10.3390/su18062944
 
 Jovanovic, A., Gavric, S., & Stevanovic, A. (2024). Evaluating Google Maps’ Eco-Routes: A Metaheuristic-Driven Microsimulation Approach. Geographies, 4(4), 732-752. https://doi.org/10.3390/geographies4040040
