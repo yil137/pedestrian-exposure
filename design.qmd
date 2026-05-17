@@ -1,12 +1,12 @@
 ---
-title: "Design report: your-package-name"
+title: "Design report: pedestrian-exposure"
 authors:
   - Monica Li
   - Lewis Hicking
   - Jessica Courtney
 date: today
 format:
-  html:
+  pdf:
     toc: true
     number-sections: true
 crossref:
@@ -23,7 +23,6 @@ This project aims to address growing concerns about the environmental impacts of
 
 The package responds to broader urban issues, such as understanding how environmental conditions vary across short pedestrian journeys. Research on eco-routing has shown that optimal travel routes differ depending on whether travel time, emissions or pollution exposure are prioritised. Although most studies focus purely on vehicle emissions and traffic simulation rather than pedestrian and scale exposure within urban areas (Kwong et al., 2025).
 By combining walking routes with pollutants such as noise, greenspace, and air quality data, this package aims to provide concise information to the general public regarding complex environmental issues. The hope is that this data will raise awareness of people's health in relation to pollution and how environmental exposure varies across urban landscapes. 
-
 
 ### Who will use it, and why
 Our pedestrian-exposure package helps users compare walking routes around the UoA city campus by combining information about traffic noise, air pollution, and green space. The package is designed for anyone who wants to better understand which walking routes may provide a healthier walking experience.
@@ -58,27 +57,29 @@ The final notebook output will include a small bar chart summarising the contrib
 
 ## Roles and next function
 
-### Monica 
+### Monica
 - Implementing `load_route()` using OSMnx
 - Route mapping and visualisation
 - Organising GeoDataFrames and CRS handling
-- Writing parts of the design report and documentation
 - Creating the final exposure route map
 
 ### Lewis
 - Implementing `add_exposure()`
 - Attaching air pollution, noise, and green space data
 - Cleaning and preparing environmental datasets
-- Assisting with exposure scoring logic
 - Supporting testing and debugging
+
+### Jess
+- Assisting with route exposure scoring logic
+- Reviewing documentation and package structure 
+- Writing the demo notebook
+- Creating charts and visual outputs
 
 ### Shared responsibilities
 - Walking around the University of Auckland city campus to observe routes during peak traffic hours
 - Comparing healthier and higher-exposure walking routes
 - Implementing `summarise_exposure()`
 - Testing package outputs and functions
-- Writing the demo notebook
-- Creating figures and diagrams
 - Managing the GitHub repository
 - Reviewing each other’s code
 - Preparing the final presentation and poster
